@@ -23,9 +23,13 @@ header {
 
 .navigation-section .logo-title {
   font-family: "Raleway", sans-serif;
-  font-size: 24px;
+  font-size: 18px;
+  font-weight: 700;
   color: #fff;
   text-decoration: none;
+  line-height: 1.17;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
 }
 
 .navigation-section ul {
@@ -38,10 +42,17 @@ header {
   margin: 0 15px;
 }
 
-.navigation-section ul li a {
+.navigation-section ul li a.nav-link {
   text-decoration: none;
-  color: #fff;
-  font-weight: bold;
+  color: #2e2f42;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+}
+
+.navigation-section ul li a.nav-link:hover,
+.navigation-section ul li a.nav-link:focus {
+  color: #404bbf;
 }
 
 .address-section ul {
@@ -57,6 +68,9 @@ header {
 .address-section ul li a {
   text-decoration: none;
   color: #333;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
 }
 
 .hero-section {
@@ -66,17 +80,29 @@ header {
 }
 
 .hero-section h1 {
-  font-size: 2.5em;
-  margin-bottom: 20px;
+  font-size: 56px;
+  line-height: 1.07;
+  text-align: center;
+  letter-spacing: 0.02em;
+  color: #ffffff;
 }
 
 .hero-section .button {
-  background: #333;
-  color: #fff;
+  background: #4d5ae5;
+  color: #ffffff;
   border: none;
   padding: 15px 30px;
-  font-size: 1.2em;
+  font-size: 16px;
+  font-family: "Roboto", sans-serif;
+  font-weight: 500;
+  line-height: 1.5;
+  letter-spacing: 0.04em;
   cursor: pointer;
+}
+
+.hero-section .button:hover,
+.hero-section .button:focus {
+  background-color: #404bbf;
 }
 
 .features-section,
@@ -123,9 +149,22 @@ header {
 .portfolio-section h3 {
   font-size: 1.5em;
   margin-bottom: 10px;
+  font-weight: 500;
+  line-height: 1.2;
+  letter-spacing: 0.02em;
+  color: #2e2f42;
 }
 
-.footer-section {
+.features-section p,
+.team-section p,
+.portfolio-section p {
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: #434455;
+}
+
+footer {
   background: #333;
   color: #fff;
   padding: 20px 0;
@@ -134,9 +173,12 @@ header {
 
 .footer-section .logo-title {
   color: #fff;
-  font-size: 24px;
+  font-size: 18px;
+  font-weight: 700;
+  text-decoration: none;
   display: block;
   margin-bottom: 10px;
+  text-transform: uppercase;
 }
 
 .footer-section p {
