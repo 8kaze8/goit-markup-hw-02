@@ -7,10 +7,11 @@ body {
 .header-section {
   justify-content: space-between;
   background-color: #f8f9fa;
+
 }
 
 .header-section .logo-title {
-  font-family: "Raleway", sans-serif;
+  font-family: "Raleway", sans-serif
   font-weight: 700;
   font-size: 24px;
   color: #4d5ae5;
