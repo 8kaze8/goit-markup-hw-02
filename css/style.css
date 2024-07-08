@@ -1,7 +1,6 @@
 body {
   font-family: "Roboto", sans-serif;
   color: #434455;
-  background-color: #ffffff;
 }
 
 a {
@@ -27,6 +26,7 @@ header nav a.logo-title {
   text-transform: uppercase;
   letter-spacing: 0.03em;
   color: #4d5ae5;
+  line-height: 1.17;
 }
 
 header nav a.logo-title span {
@@ -68,6 +68,10 @@ header .address-section {
 }
 
 .features-section h2 {
+  font-size: 36px;
+  line-height: 1.11;
+  text-align: center;
+  letter-spacing: 0.02em;
   text-transform: capitalize;
   color: #2e2f42;
 }
@@ -80,13 +84,17 @@ header .address-section {
 .team-section h3,
 .portfolio-section h3 {
   font-weight: 500;
+  font-size: 20px;
+  line-height: 1.2;
   letter-spacing: 0.02em;
+  color: #2e2f42;
 }
 
 .features-section p,
 .team-section p,
 .portfolio-section p {
   font-size: 16px;
+  line-height: 1.5;
   letter-spacing: 0.02em;
 }
 
@@ -101,9 +109,15 @@ header .address-section {
   text-transform: uppercase;
   letter-spacing: 0.03em;
   color: #4d5ae5;
+  line-height: 1.17;
+}
+
+.footer-section a.logo-title span {
+  color: #2e2f42;
 }
 
 .footer-section p.footer-description {
   color: #f4f4fd;
   letter-spacing: 0.02em;
+  line-height: 1.5;
 }
