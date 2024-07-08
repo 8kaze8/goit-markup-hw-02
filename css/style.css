@@ -10,7 +10,7 @@ body {
 
 }
 
-.header-section .logo-title {
+.logo-title {
   font-family: "Raleway", sans-serif
   font-weight: 700;
   font-size: 24px;
@@ -18,14 +18,14 @@ body {
   text-transform: uppercase;
 }
 
-.header-section .nav-link {
+.nav-link {
   font-size: 16px;
   color: #434455;
   letter-spacing: 0.02em;
   text-decoration: none;
 }
 
-.header-section .nav-link:hover {
+.nav-link:hover {
   color: #2e2f42;
 }
 
