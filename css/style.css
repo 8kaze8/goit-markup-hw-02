@@ -8,7 +8,7 @@ a {
   font-weight: 500;
   line-height: 1.5;
   letter-spacing: 0.02em;
-  color: #434455;
+  color: #2e2f42; /* Hatayı düzelttim */
   text-decoration: none;
 }
 
@@ -66,14 +66,6 @@ header .address-section {
 
 .features-section {
   background-color: #f4f4fd;
-}
-
-.features-section a {
-  color: #2e2f42;
-}
-
-.features-section a:focus {
-  color: #404bbf;
 }
 
 .features-section h2 {
