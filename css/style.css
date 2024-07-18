@@ -68,6 +68,14 @@ header .address-section {
   background-color: #f4f4fd;
 }
 
+.features-section a {
+  color: #2e2f42;
+}
+
+.features-section a:focus {
+  color: #404bbf;
+}
+
 .features-section h2 {
   font-size: 36px;
   line-height: 1.11;
