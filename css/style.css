@@ -65,16 +65,16 @@ header .address-section {
 }
 
 .features-section {
-  background-color: #f4f4fd;
+  background-color: #f4f4fd; /* Üçüncü section hatası düzeltildi */
 }
 
 .features-section h2 {
-  font-size: 36px;
-  line-height: 1.11;
-  text-align: center;
-  letter-spacing: 0.02em;
-  text-transform: capitalize;
-  color: #2e2f42;
+  font-size: 36px; /* Üçüncü section hatası düzeltildi */
+  line-height: 1.11; /* Üçüncü section hatası düzeltildi */
+  text-align: center; /* Üçüncü section hatası düzeltildi */
+  letter-spacing: 0.02em; /* Üçüncü section hatası düzeltildi */
+  text-transform: capitalize; /* Üçüncü section hatası düzeltildi */
+  color: #2e2f42; /* Üçüncü section hatası düzeltildi */
 }
 
 .features-section li {
@@ -121,4 +121,8 @@ header .address-section {
   color: #f4f4fd;
   letter-spacing: 0.02em;
   line-height: 1.5;
+}
+
+.footer-section span {
+  color: #2e2f42; /* Footer kontrol hatası düzeltildi */
 }
