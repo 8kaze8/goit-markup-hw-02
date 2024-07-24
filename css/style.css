@@ -12,11 +12,11 @@ a {
   text-decoration: none;
 }
 
-a:hover {
+.address-section ul li:first-child .email-link:hover {
   color: #404bbf;
 }
 
-a:focus {
+.address-section ul li:first-child .email-link:focus {
   color: #404bbf;
 }
 
