@@ -133,7 +133,7 @@ header .address-section {
   line-height: 1.17;
 }
 
-span.sub-title {
+.footer-section a.logo-title .sub-title {
   color: #2e2f42;
 }
 
