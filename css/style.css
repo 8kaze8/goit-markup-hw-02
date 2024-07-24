@@ -36,6 +36,9 @@ header nav a.logo-title .studio {
 
 header .address-section {
   font-style: normal;
+}
+
+.address-section ul li:first-child .email-link {
   color: #434455;
 }
 
@@ -132,7 +135,7 @@ header .address-section {
   line-height: 1.5;
 }
 
-.footer-section span.studio {
+span.studio {
   color: #2e2f42; /* Footer kontrolü */
 }
 
