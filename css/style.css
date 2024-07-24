@@ -135,10 +135,6 @@ header .address-section {
   line-height: 1.5;
 }
 
-span.studio {
-  color: #2e2f42; /* Footer kontrolü */
-}
-
 .team-section h2,
 .portfolio-section h2 {
   font-size: 36px; /* 4. section */
